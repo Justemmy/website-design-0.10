@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta name="viewport" content="with=device-width, initial-scale=1.0">
+     <title>WEBSITE DESIGN</title>
+     <link rel="stylesheet" href="COURSE.css">
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+	 <script src="https://kit.fontawesome.com/387e96189e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     <section class="header">
+     <nav>
+     <a href="index.html"><img src="img/logo.png"></a>
+     <div class="nav-links" id="navlinks">
+          <i class="fa fa-times" onclick="hidemenu()"></i>
+     <ul>
+         <li><a href="index.html">HOME</a></li>
+         <li><a href="ABOUT.html">ABOUT</a></li>
+         <li><a href="COURSE.html">COURSE</a></li>
+         <li><a href="BLOG.html">BLOG</a></li>
+         <li><a href="CONTACT.html">CONTACT</a></li>
+       </ul>
+     </div>
+     <i class="fa fa-bars" onclick="showmenu()"></i>
+   </nav>
+
+<!-------COURSE-------->
+<section class="course">
+    <h1>Courses we offer</h1>
+    <p1>We offer varieties of courses ranging from 3yrs to 7yrs of study</p1>
+
+    <div class="row">
+     <div class="course-col">
+              <h3>Intermediate</h3>
+              <p1>Description is currently unavailable due to lack of sufficient words,<br> check back when our wordbank is available.</p1>
+         </div>
+     <div class="course-col">
+             <h3>Degree</h3>
+             <p1>Description is currently unavailable due to lack of sufficient words,<br> check back when our wordbank is available.</p1>
+         </div>
+     <div class="course-col">
+             <h3>Post Graduation</h3>
+             <p1>Description is currently unavailable due to lack of sufficient words,<br> check back when our wordbank is available.</p1>
+         </div>
+    </div>
+</section>
+<!----------call to action-------->
+<section class="cta">
+     <h1>Enroll For Our Various Online Courses<br> Anywhere Around The World</h1>
+     <a href="CONTACT.html" class="hero-btn">CONTACT US</a>
+</section>
+<!---------footer---------->
+
+
+
+
+
+
+
+
+<!--------Javascript fot toggle menu-------->
+<script>
+     var navlinks= document.getElementById("navlinks");
+     function showmenu(){
+          navlinks.style.right="0";
+     }
+     function hidemenu(){
+          navlinks.style.right="-200px"
+     }
+</script>
+
+
+</body>
+</html>

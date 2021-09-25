@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta name="viewport" content="with=device-width, initial-scale=1.0">
+     <title>WEBSITE DESIGN</title>
+     <link rel="stylesheet" href="CONTACT.css">
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+	 <script src="https://kit.fontawesome.com/387e96189e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     <section class="header">
+     <nav>
+     <a href="index.html"><img src="img/logo.png"></a>
+     <div class="nav-links" id="navlinks">
+          <i class="fa fa-times" onclick="hidemenu()"></i>
+     <ul>
+         <li><a href="index.html">HOME</a></li>
+         <li><a href="ABOUT.html">ABOUT</a></li>
+         <li><a href="COURSE.html">COURSE</a></li>
+         <li><a href="BLOG.html">BLOG</a></li>
+         <li><a href="CONTACT.html">CONTACT</a></li>
+       </ul>
+     </div>
+     <i class="fa fa-bars" onclick="showmenu()"></i>
+   </nav>
+
+ 
+<!---------footer---------->
+<section class="footer">
+     <h4>CONTACT US</h4>
+     <p>Description is currently unavailable due to lack of sufficient words,<br> check back when our wordbank is available.</p>
+     <div class="icons">
+          <a href="https://www.facebook.com/asanga.emmanuel.12"><i class="fab fa-facebook"></i></a>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+         <a href="https://wa.me/message/U4AQ2PYG2MR6M1"><i class="fab fa-whatsapp"></i></a>
+          <p>Made By J Emmy's Web</p>
+     </div>
+</section>
+
+
+
+
+
+
+
+<!--------Javascript fot toggle menu-------->
+<script>
+     var navlinks= document.getElementById("navlinks");
+     function showmenu(){
+          navlinks.style.right="0";
+     }
+     function hidemenu(){
+          navlinks.style.right="-200px"
+     }
+</script>
+
+
+</body>
+</html>
